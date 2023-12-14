@@ -14,7 +14,7 @@ async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 async def measure_runtime() -> float:
     """
-    Measures and returns the total runtime taken to execute 
+    Measures and returns the total runtime taken to execute
     `async_comprehension` four times.
     """
     start_time = time.time()
